@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^list-teacher/', views.list_teacher),
     url(r'^list-student/', views.list_student),
     url(r'^list-course/', views.list_course),
+    url(r'^list-registered-course/', views.list_course_register),
 ]
